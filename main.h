@@ -26,11 +26,14 @@
  * @plus_flag: on if plus_flag specified
  * @space_flag: on if hashtag_flag specified
  * @hashtag_flag: on if _flag specified
- * @zero_flag: on if _flag specified 
+ * @zero_flag: on if _flag specified
  * @minus_flag: on if _flag specified
  *
  * @width: field with specified
  * @precision: field precision specified
+ *
+ * @h_modifier: on if h_modifier is specified
+ * @l_modifier: on if l_modifier is specified
  *
  */
 typedef struct parameters
@@ -42,7 +45,7 @@ typedef struct parameters
 	unsigned int hashtag_flag	: 1;
 	unsigned int zero_flag		: 1;
 	unsigned int minus_flag		: 1;
-	
+
 	unsigned int width;
 	unsigned int precision;
 
