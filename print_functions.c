@@ -55,8 +55,8 @@ int print_string(va_list ap, params_t *params)
 
 	(void)params;
 	switch ((int)(!str))
-	case 1:
-		str = NULL_STRING;
+		case 1:
+			str = NULL_STRING;
 
 	j = pad = _strlen(str);
 	if (params->precision < pad)
